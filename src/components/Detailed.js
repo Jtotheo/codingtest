@@ -35,7 +35,11 @@ export function Detailed() {
     return (
       <IonItem key={ind}>
         <IonCard key="ind" className="detailed">
-          <a className="backButton" href="/" style={{ float: "right" }}>
+          <a
+            className="backButton"
+            href="/codingtest"
+            style={{ float: "right" }}
+          >
             <IonButton>Kassa</IonButton>
           </a>
           <h3>{e.title}</h3>

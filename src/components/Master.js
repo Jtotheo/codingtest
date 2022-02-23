@@ -66,7 +66,7 @@ export function Master() {
         WINNERHEADS MARKETPLACE
       </IonHeader>
       {/* Gör en route så att variablen "cards" som sätts ovan renderas på rot-url */}
-      <Route exact path="/">
+      <Route exact path="/codingtest">
         <div className="container">{cards}</div>
       </Route>
       <Route path={`/:id`}>
