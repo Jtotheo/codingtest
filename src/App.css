@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 0;
+}
+
+.detailed {
+  margin-top: 3rem;
+}
+
+p {
+  padding: 0.3em;
+}
+
+.card {
+  display: inline-block;
+  border-radius: 0.5em;
+  color: white;
+  width: 11rem;
+  height: 7re;
+  background-image: url("https://lh3.googleusercontent.com/9S8vJB--Ex8W5avIRoyGkiQjKGhRVGRgg2j0eiL1BgLb9xvoVyT-kNF-v0U8tGl5uF-ldLtaHinADRt5TVBpa-NkZDYn6PacXdSA=s367");
+  background-size: 100%;
+  border: black;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 1rem;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 0.8rem;
+}
+
+.backButton {
+  background-color: grey;
+}
