@@ -1,3 +1,7 @@
+# Code test master-detail-fetch
+
+The task was to fetch items from an API (the json data from the API can be found at the bottom of this README.md), and then render them in a master-detail relationship as they would appear in a web store.  Feel free to browse the content of the "src/components"-folder for my code with comments. The project was done in REACT.js
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
